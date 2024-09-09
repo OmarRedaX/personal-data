@@ -1,0 +1,146 @@
+<html>
+  <head></head>
+
+
+  <body>
+
+    <form>
+
+
+        <!-- first field in the page -->
+        <fieldset style="background-color: rgb(160, 27, 27);">
+
+            <legend style="background-color: rgb(25, 93, 196); font-size: xx-large; "> Personal Data</legend>
+
+            <br>
+
+            <!-- second field in the page inside the first field -->
+            <fieldset style="background-color:rgb(194, 191, 2);">
+
+                <legend style="background-color:rgb(25, 93, 196); font-size: larger; padding: 60px 10px;  ">Your Name</legend>
+
+                <br>
+                <br>
+                <br>
+
+                <!-- take from user the first name and last name and put initial value in it -->
+                <label for="fname">First Name  : </label>
+                <input required placeholder="ex.ahmed" type="text" name="first_name" id="fname"/>
+
+                <br>
+                <br>
+
+                <label for="lname">Last Name  : </label>
+                <input required placeholder="ex.bahnsay" type="text" name="last_name" id="lname" />
+
+            </fieldset>
+
+            <!-- take from user your phone email password re password -->
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- &nbsp; creating a space -->
+            <label for="phone" >Your Phone&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <input required type="tel" name="phone" id="phone" />
+
+            <br>
+
+            <label for="Email">Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <input required type="email" name="email" id="Email" style="margin-left: 1px;" />
+
+            <br>
+
+            <label for="password">Password&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+            <input required type="password" name="password" id="password" style="margin-left: 2px;" >
+
+            <br>
+
+            <label for="repassword">Re-passwrod&nbsp;&nbsp;&nbsp;: </label>
+            <input required type="password" name="re-password" id="repassword" >
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- make the user to select one choice using radio and must have the same name -->
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">&nbsp;Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">&nbsp;Female</label>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- make the user to select one choice using radio and must have the same name -->
+            <input type="radio" id="student" name="status" value="student">
+            <label for="student">&nbsp;student</label>
+            <br>
+            <input type="radio" id="graduated" name="status" value="graduated">
+            <label for="graduated">&nbsp;Graduated</label>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- make the user to choose and every choice have sub choice -->
+            <select name="colleage" >
+
+                <optgroup  label="AUC">
+                    <option  value="AUC Computer Sciences">Computer Sciences</option>
+                    <option  value="AUC Engineering">Engineering</option>
+                    <option  value="AUC Business">Business</option>
+                    <option  value="AUC Sciences">Sciences</option>
+                </optgroup>
+
+                <optgroup label="MSA">
+                    <option  value="MSA Computer Sciences">Computer Sciences</option>
+                    <option  value="MSA Engineering">Engineering</option>
+                    <option  value="MSA Business">Business</option>
+                </optgroup>
+
+                <optgroup label="NU">
+                    <option  value="NU Computer Sciences">Computer Sciences</option>
+                    <option  value="NU Engineering">Engineering</option>
+                    <option  value="NU Business">Business</option>
+                    <option  value="NU BIO">Bio Technology</option>
+                </optgroup>
+
+                <optgroup label="GU">
+                    <option value="GU Computer Sciences">Computer Sciences</option>
+                    <option  value="GU Engineering">Engineering</option>
+                    <option  value="GU Business">Business</option>
+                    <option  value="GU Pharmacy">Pharmacy</option>
+                </optgroup>
+                
+            </select>
+
+            <br>
+            <br>
+            <br>
+
+            <!-- now we will add a button to submit all the information to the server -->
+            <button type="submit"><img src="download.jpeg" alt="submit" style="width: 80px;"></button>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+
+        </fieldset>
+
+    </form>
+
+
+  </body>
+
+
+</html>
